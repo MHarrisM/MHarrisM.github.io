@@ -1,14 +1,18 @@
-function createProjectCard() {
+function createProjectCard(proj) {
     const projCard = document.createElement("div");
 
     projCard.innerHTML =`
-        <h3> Project Title </h3>
-        <p> Description </p> 
+        <h3>${proj.title} </h3>
+        <p> ${proj.desc} </p> 
     `;
     return projCard;
 }
 document.addEventListener("DOMContentLoaded", function() {
     const projlist = document.getElementById("proj-list");
-    const proj = createProjectCard();
-    projlist.appendChild(proj);
+
+    projects.forEach(project =>{
+        const proj = createProjectCard(proj);
+        projlist.appendChild(proj);
+    })
+    
 })
