@@ -1,4 +1,4 @@
-import {projects} from "./projects.js"
+import {projects} from "./projects/projects.js"
 function createProjectCard(proj) {
     const projCard = document.createElement("div");
 
