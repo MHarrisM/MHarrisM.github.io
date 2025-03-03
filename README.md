@@ -1,2 +1,2 @@
 # hurrysG.github.io
-Github Pages for portfoli
+Github Pages for portfolio
