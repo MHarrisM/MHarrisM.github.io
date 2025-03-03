@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const projlist = document.getElementById("proj-list");
 
     projects.forEach(project =>{
-        const proj = createProjectCard(proj);
+        const proj = createProjectCard(project);
         projlist.appendChild(proj);
     })
     
