@@ -1,4 +1,9 @@
 .project-card{
-    background-color: red;
-    border-radius: 10px;
+    background-image: url("../assets/Elden_Ring_Box_art.jpg");
+    background-size:cover;
+    background-position: center;
+    width: auto;
+    margin: -19px -4px -18px -4px;
+    
+
 }

@@ -2,12 +2,12 @@ import {projects} from "../js/projects.js"
 
 function createProjectCard(proj) {
     const projCard = document.createElement("div");
+    projCard.style.height = "400px";
     
     projCard.innerHTML =`
         <h3>${proj.title} </h3>
         <p> ${proj.desc} </p>
-        <p> Test </p>
-        <img src="${proj.img}">
+
     `;
     projCard.classList.add( "project-card" )
     return projCard;

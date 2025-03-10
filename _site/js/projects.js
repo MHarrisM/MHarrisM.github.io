@@ -10,7 +10,13 @@ export const projects = [
         id:2, 
         title: "Unity Project", 
         desc: "A 3D scene created using Unity", 
-        img: "assets/Elden_Ring_Box_art.jpg"
+        img: "assets/Arcane.jpg"
+    },
+        {
+        id:2, 
+        title: "Unity Project", 
+        desc: "A 3D scene created using Unity", 
+        img: "assets/CinderKing.jpg"
     },
 
 ];
