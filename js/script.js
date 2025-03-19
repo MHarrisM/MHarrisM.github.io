@@ -35,7 +35,7 @@ function navToProjPage(projID){
     }else if(projID == 2){
         window.location.href = `https://hurrysg.github.io/unity-scene/`
     }else if(projID == 3){
-        window.location.href = `https://hurrysg.github.io/flush/`
+        window.location.href = `https://hurrysg.github.io/flush-page/`
     }
     
 }
