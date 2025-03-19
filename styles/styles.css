@@ -3,21 +3,15 @@
     background-size:cover;
     background-position:top;
     width: auto;
-    margin: -19px -8px;
+    
     position: relative;
     overflow:hidden;
     cursor:pointer;
-    
-
 }
-
 .project-image{
 width: 75%;
 height: 400px;
-
 }
-
-
 /* Text content inside the card */
 .overlay-text {
     position: absolute;
@@ -32,10 +26,29 @@ height: 400px;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
 }
-
 .project-card:hover .overlay-text {
     opacity: 1; /* Fade in text */
 }
-html{
+body{
     background-color: #FFD7D7;
+}
+a {
+    text-decoration: none;
+}
+.nav-bar{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    background-color: black;
+    margin: -22px -8px;
+    padding: 10px;
+}
+.nav-item{
+    color: #FFD7D7;
+}
+.navbar-brand{
+    border-right: 1px solid white;
+    padding: 15px;
+}
+.navbar .nav-link:hover{
+    text-decoration: underline;
 }

@@ -14,8 +14,8 @@ export const projects = [
     },
         {
         id:3, 
-        title: "Other", 
-        desc: "Come up with another project", 
+        title: "Flush", 
+        desc: "Sheridan Final Capstone Project", 
         img: "assets/CinderKing.jpg"
     },
 
