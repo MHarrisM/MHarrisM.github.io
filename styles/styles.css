@@ -1,3 +1,9 @@
+body{
+    background-color: #FFD7D7;
+}
+a {
+    text-decoration: none;
+}
 .project-card{
     /* background-color: aqua; */
     background-size:cover;
@@ -25,16 +31,12 @@ height: 400px;
     font-size: 1.2rem;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
+    z-index: 1;
 }
 .project-card:hover .overlay-text {
     opacity: 1; /* Fade in text */
 }
-body{
-    background-color: #FFD7D7;
-}
-a {
-    text-decoration: none;
-}
+
 .nav-bar{
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
