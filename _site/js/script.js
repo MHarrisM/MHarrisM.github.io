@@ -6,12 +6,10 @@ function createProjectCard(proj) {
     projCard.classList.add( "project-card" );
 
     const bgImage = document.createElement("div");
-    
     bgImage.style.height = "400px";
     bgImage.style.display ="flex";
     bgImage.style.justifyContent = "end";
     bgImage.style.alignItems = "center";
-    
     bgImage.style.backgroundImage = `url(../${proj.img})`;
     bgImage.classList.add( "project-card" );
     projCard.appendChild(bgImage);
@@ -22,8 +20,6 @@ function createProjectCard(proj) {
     carousel.style.border = "solid";
     carousel.style.width = "150px";
     carousel.style.display ="flex";
-
-
     carousel.innerHTML=`
         <div id="carouselIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-inner">
