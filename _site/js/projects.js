@@ -16,7 +16,7 @@ export const projects = [
         id:3, 
         title: "Flush", 
         desc: "Sheridan Final Capstone Project", 
-        img: "assets/CinderKing.jpg"
+        img: "assets/FlushLogo.png"
     },
 
 ];
