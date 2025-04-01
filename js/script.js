@@ -71,6 +71,8 @@ function navToProjPage(projID){
         window.location.href = `https://mharrism.github.io/unity-scene/`
     }else if(projID == 3){
         window.location.href = `https://mharrism.github.io/flush-page/`
+    }else if(projID == 4){
+        window.location.href = `https://mharrism.github.io/board-forge/`
     }
     
 }

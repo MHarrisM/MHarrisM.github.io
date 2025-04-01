@@ -66,11 +66,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function navToProjPage(projID){
     if (projID == 1){
-        window.location.href = `https://hurrysg.github.io/good-game/`
+        window.location.href = `https://mharrism.github.io/good-game/`
     }else if(projID == 2){
-        window.location.href = `https://hurrysg.github.io/unity-scene/`
+        window.location.href = `https://mharrism.github.io/unity-scene/`
     }else if(projID == 3){
-        window.location.href = `https://hurrysg.github.io/flush-page/`
+        window.location.href = `https://mharrism.github.io/flush-page/`
+    }else if(projID == 4){
+        window.location.href = `https://mharrism.github.io/board-forge/`
     }
     
 }
