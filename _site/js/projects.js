@@ -17,7 +17,7 @@ export const projects = [
         id:3, 
         title: "Flush", 
         desc: "Sheridan Final Capstone Project", 
-        img: "assets/Flush2.png",
+        img: "assets/FlushLogoBig.png",
         cImg:["assets/LoginScreen_Small.png","assets/MapScreen_Small.png","assets/DetailsScreen_Small.png"]
     },
     {

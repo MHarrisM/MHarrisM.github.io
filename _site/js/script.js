@@ -3,14 +3,18 @@ import {projects} from "../js/projects.js"
 function createProjectCard(proj) {
     const projCard = document.createElement("div");
     projCard.style.height = "400px";
+    // projCard.style.width = "100vw";
     projCard.classList.add( "project-card" );
+    
 
     const bgImage = document.createElement("div");
-    bgImage.style.height = "400px";
+    bgImage.style.height = "100%";
+    // bgImage.style.width = "100%";
     bgImage.style.display ="flex";
     bgImage.style.justifyContent = "end";
     bgImage.style.alignItems = "center";
     bgImage.style.backgroundImage = `url(../${proj.img})`;
+    
     bgImage.classList.add( "project-card" );
     projCard.appendChild(bgImage);
 
