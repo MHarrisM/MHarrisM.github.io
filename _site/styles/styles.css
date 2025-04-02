@@ -54,8 +54,16 @@ height: 400px;
     margin: -22px -8px;
     padding: 10px;
 }
+.navbar-nav-bottom{
+    color: white;
+    display: flex;
+    justify-items: center;
+  
+    
+    
+}
 .nav-item{
-    color: white
+    color: #FFD7D7;
 }
 .navbar-brand{
     border-right: 1px solid white;
