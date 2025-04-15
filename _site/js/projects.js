@@ -3,8 +3,8 @@ export const projects = [
         id:1, 
         title: "GoodGame", 
         desc: "A website to track and store your games. Allows updates ofgames you are playing, wish to play etc. Get recommendations.", 
-        img: "assets/GoodGameImg/GG3.png",
-        cImg:["assets/GoodGameImg/GG.png","assets/GoodGameImg/GG1.png","assets/GoodGameImg/GG2.png","assets/GoodGameImg/GG3.png","assets/GoodGameImg/GG4.png"]
+        img: "assets/GoodGameImg/GG6.png",
+        cImg:["assets/GoodGameImg/GG5.png","assets/GoodGameImg/GG6.png","assets/GoodGameImg/GG10.png","assets/GoodGameImg/GG8.png","assets/GoodGameImg/GG9.png"]
     },
     {
         id:2, 
